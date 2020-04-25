@@ -95,7 +95,7 @@ class TuyaWebPlatform {
           homebridgeAccessory.controller.updateAccessory(device);
         }
         else {
-          this.log.error('Could not find accessory in dictionary');
+          
         }
       }
     }).catch((error) => {
